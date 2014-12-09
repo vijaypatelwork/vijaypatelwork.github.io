@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'v';
-	src:url('../fonts/font-v.eot?rakbhu');
-	src:url('../fonts/font-v.eot?#iefixrakbhu') format('embedded-opentype'),
-		url('../fonts/font-v.woff?rakbhu') format('woff'),
-		url('../fonts/font-v.ttf?rakbhu') format('truetype'),
-		url('../fonts/font-v.svg?rakbhu#icomoon') format('svg');
+	src:url('../fonts/font-v.eot');
+	src:url('../fonts/font-v.eot') format('embedded-opentype'),
+		url('../fonts/font-v.woff') format('woff'),
+		url('../fonts/font-v.ttf') format('truetype'),
+		url('../fonts/font-v.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
