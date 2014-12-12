@@ -26,3 +26,97 @@
 .icon-v-v:before {
 	content: "\e600";
 }
+
+
+.v-logo-icon{
+    position:relative;
+    display:inline-block;
+    text-align:center;
+	vertical-align: middle;
+    width:2em;
+    height:2em;
+    border-radius:50%;
+    line-height:2.3em;
+    background:#334959;
+    color:#fff;
+	/*for fix text and v-logo height*/
+	margin:4px 15px 0px 0px;
+}
+
+.v-logo-icon:after {
+    content:"";
+    position:absolute;
+    display:inline-block;
+	text-align:center;
+	vertical-align: middle;
+    width:2.7em;
+    height:2.7em;
+    top:-8px;
+    left:-8px;
+    border:3px solid #334959;
+    border-radius:50%;
+}
+
+.styles-1 .v-logo-icon{
+    background:#F58026;
+}
+.styles-1 .v-logo-icon:after{
+    border:3px solid #F58026;
+}
+
+.styles-2 .v-logo-icon{
+    background:#DFD045;
+}
+.styles-2 .v-logo-icon:after{
+    border:3px solid #DFD045;
+}
+
+.styles-3 .v-logo-icon{
+    background:#F1CF0F;
+}
+.styles-3 .v-logo-icon:after{
+    border:3px solid #F1CF0F;
+}
+
+.styles-4 .v-logo-icon{
+    background:#BFDBA7;
+}
+.styles-4 .v-logo-icon:after{
+    border:3px solid #BFDBA7;
+}
+
+.styles-5 .v-logo-icon{
+    background:#F0B9BF;
+}
+.styles-5 .v-logo-icon:after{
+    border:3px solid #F0B9BF;
+}
+
+.styles-6 .v-logo-icon{
+    background:#DBBA8D;
+}
+.styles-6 .v-logo-icon:after{
+    border:3px solid #DBBA8D;
+}
+
+.styles-7 .v-logo-icon{
+    background:#6EE3E7;
+}
+.styles-7 .v-logo-icon:after{
+    border:3px solid #6EE3E7;
+}
+
+.styles-8 .v-logo-icon{
+    background:#52CCBA;
+}
+.styles-8 .v-logo-icon:after{
+    border:3px solid #52CCBA;
+}
+
+.styles-9 .v-logo-icon{
+    background:#F28C83;
+}
+.styles-9 .v-logo-icon:after{
+    border:3px solid #F28C83;
+}
+

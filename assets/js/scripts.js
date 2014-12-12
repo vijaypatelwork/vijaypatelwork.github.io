@@ -236,7 +236,7 @@ $(document).ready(function() {
 	$('.close-preview').click(function(){
 		closeProject();
 	})
-		
+	
 	/*============================================
 	Waypoints Animations
 	==============================================*/
