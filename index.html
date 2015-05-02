@@ -207,15 +207,27 @@
 					</div>
 					
 					<div class="col-sm-6 scrollimation fade-left d3">
-					
+
 						<h1 class="big-text">I am <br/>Vijay Patel </h1>
 						
-						<p class="lead">I am Vijay Patel, a twenty five year old Web developer from Gandhinagar, Gujarat, India. I have graduated with a Bachelor of Computer Application, from the Hemchandracharya Hemchandracharya North Gujarat University.</p>
-					
-						<p>I am passionate about combining function, interaction and form to design for fitting user experiences that make people happy. I have a passion for creating challenging, intuitive and beautiful products. My Development process is very hands-on and visual.</p>
-					
+						<div id="about_block_1">
+							<p class="lead">I am Vijay Patel, a twenty five year old Web developer from Gandhinagar, Gujarat, India. I have graduated with a Bachelor of Computer Application, from the Hemchandracharya North Gujarat University.</p>
+						
+							<p>I am passionate about combining function, interaction and form to design for fitting user experiences that make people happy. I have a passion for creating challenging, intuitive and beautiful products. My Development process is very hands-on and visual.</p>
+
+							<p><button name="my_cv" type="button" class="btn btn-color2 btn-block" onclick="$('#about_block_1, #about_block_2').toggle()"><i class="fa fa-file-text"></i>My CV</button></p>
+						</div>
+
+						<div id="about_block_2" style="display:none;">
+							<div class="embed-responsive embed-responsive-4by3">
+								<iframe class="embed-responsive-item" src="https://www.slideshare.net/slideshow/embed_code/key/IFv1HcQTxb5lWQ"></iframe>
+							</div>
+
+							<p><button name="about_me" type="button" class="btn btn-color2 btn-block" onclick="$('#about_block_1, #about_block_2').toggle()"><i class="fa fa-file-text"></i>About Me</button></p>
+						</div>
+
 					</div>
-				
+
 				</div>
 				
 			</div>
@@ -537,10 +549,10 @@
 			
 		</footer>
         
-        <!-- ==============================================
+		<!-- ==============================================
 		SCRIPTS
 		=============================================== -->
-        <script src="assets/js/libs/jquery-1.8.2.min.js"></script>
+		<script src="assets/js/libs/jquery-1.8.2.min.js"></script>
 		<script src="assets/js/libs/bootstrap.min.js"></script>
 		<script src="assets/js/jquery.scrollto.js"></script>
 		<script src="assets/js/waypoints.min.js"></script>
